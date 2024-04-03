@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    color: #fff;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    padding: 0 50px;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navpart2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#container{
+    height: 80%;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+}
+
+#left{
+    /* background-color: blue; */
+    height: 80%;
+    width: 50%;
+    margin-right: 5%;
+    padding: 60px 50px;
+    border-bottom: 2px solid #dadada;
+}
+#right{
+    /* background-color: red; */
+    height: 100%;
+    width: 50%;
+    padding: 50px 50px;
+    overflow: hidden;
+
+}
+
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#left h1{
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+#left h1  span img{  
+     margin-left: -40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:3px solid black;
+}
+#left h1:nth-last-child(1){
+    margin-left: 40px;
+}
+/* #left h1 span img :nth-child(1){
+    margin-left: 0;
+} */
+
+.box{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    border: 3px solid #dadada;
+    text-align: center;
+    padding: 35px;
+}
+
+.box h1{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size:25px;
+}
+.box p{
+font-size: 10px;
+font-weight: 600;
+color:#dadada;
+}
